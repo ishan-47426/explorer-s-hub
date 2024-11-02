@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer's Hub </title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header class="header" style="background-image: url('images/main.webp');">
+        <h1>Welcome to Explorer's Hub</h1>
+        <p>Discover the world's most breathtaking destinations.</p>
+        <button onclick="scrollToContent()">Explore Now</button>
+    </header>
+    <section class="top-attractions" id="top-attractions">
+        <h2>Top Attractions</h2>
+        <div class="attractions-container">
+            <div class="attraction">
+                <a href="attraction/paris/paris.html"><img src="images/paris-skyline.webp" alt="Paris"></a>
+                <h3><a href="attraction/paris/paris.html">Paris</a></h3>
+                <p>Paris, the City of Light, is a timeless and enchanting destination with rich history, stunning architecture, and vibrant culture.
+                    <!-- Paris, the City of Light, is a timeless and enchanting tourist destination that attracts millions of visitors each year. With its rich history, stunning architecture, and vibrant cultural scene, Paris is a must-visit destination for anyone interested in art, fashion, cuisine, and romance. -->
+                </p>
+            </div>
+            <div class="attraction">
+                <a href="attraction/new-york/new-york.html"><img src="images/new-york-skyline.webp" alt="New York"></a>
+                <h3><a href="attraction/new-york/new-york.html">New York</a></h3>
+                <p>New York City, the “City That Never Sleeps,” is filled with iconic landmarks, world-class museums, Broadway shows, and diverse neighborhoods.
+                    <!-- New York City, often referred to as the “City That Never Sleeps,” is a vibrant and eclectic metropolis that offers something for every kind of traveler. From iconic landmarks to world-class museums, Broadway shows, and diverse neighborhoods, NYC is a must-visit destination for tourists. -->
+                </p>
+            </div>
+            <div class="attraction">
+                <a href="attraction/tokyo/tokyo.html"><img src="images/tokyo-skyline.webp" alt="Tokyo"></a>
+                <h3><a href="attraction/tokyo/tokyo.html">Tokyo</a></h3>
+                <p>Tokyo is a vibrant city that offers a unique blend of traditional and modern culture, rich history, and cutting-edge technology.
+                    <!-- Tokyo, Japan's capital, is a vibrant and fascinating city that offers a unique blend of traditional and modern culture, rich history, and cutting-edge technology. As a tourist destination, Tokyo has something for everyone. -->
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="other-places" id="other-places">
+        <h2>Other Destinations </h2>
+        <div class="attractions-container">
+            <div class="attraction">
+                <img src="images/chicago.webp" alt="Paris">
+                <h3><a href="https://travel.usnews.com/Chicago_IL/Things_To_Do/">Chicago</a></h3>
+                <p>Chicago, the third-largest city in the United States, is a treasure trove of attractions, entertainment, and culture. As a tourist, you'll find plenty of reasons to visit this iconic city
+                    
+                </p>
+            </div>
+            <div class="attraction">
+                <img src="images/england.webp" alt="New York">
+                <h3><a href="https://www.thrillophilia.com/destinations/england/places-to-visit">England</a></h3>
+                <p>England, a country in the United Kingdom, offers a diverse range of attractions and experiences for tourists. From its rich history and culture to its vibrant cities and picturesque countryside, there’s something for everyone.
+                   
+                </p>
+            </div>
+            <div class="attraction">
+                <img src="images/italy.webp" alt="Tokyo">
+                <h3><a href="https://travel.usnews.com/rankings/best-places-to-visit-in-italy/">Italy</a></h3>
+                <p>Italy is a treasure trove of art, history, architecture, fashion, and cuisine, making it a top tourist destination worldwide.
+                   
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries and recommendations, fill out the form below:</p>
+        <form>
+            <input type="text" id="name"placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" id="message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script>
+        function scrollToContent() {
+            document.getElementById("top-attractions").scrollIntoView({ behavior: 'smooth' });
+        }
+        function handleSubmit(event) {
+            event.preventDefault(); 
+            const username = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            if (name && email)  {
+                alert("Message sent");
+            }
+        }
+    </script>
+</body>
+</html>
