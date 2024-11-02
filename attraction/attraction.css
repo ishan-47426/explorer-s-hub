@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8e2;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.destination-hero {
+    height: 300px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-size: contain;
+    background-position: center;
+}
+
+.destination-hero h1 {
+    font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.7);
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+.destination-hero p {
+    
+    text-align: justify;
+    margin-top: 10px; 
+    max-width: 70%; 
+    margin-left: 15%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    background: rgba(0,0,0,0.7);
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.places-to-visit {
+    display: flex;
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.places-to-visit h2 {
+    color: #444;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.place {
+    width: 200px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #e7f4e4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.place img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.place h3 {
+    font-size: 1.4em;
+    color: #2f4f4f;
+}
+
+.additional-info {
+    padding: 40px 20px;
+    background: #fff5b9;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.additional-info h2 {
+    font-size: 1.8em;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.additional-info h3 {
+    font-size: 1.5em;
+    color: #2f4f4f;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.additional-info p {
+    margin: 10px 0;
+    font-size: 130%;
+}
+
+.additional-info img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.food-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.food-info img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+}
+
+.travel-tip {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #a3c686;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background-color: #8fb375;
+}
